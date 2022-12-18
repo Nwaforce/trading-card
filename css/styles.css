@@ -1,0 +1,41 @@
+header {
+    font-size: 50px;
+    font-weight: bold;
+}
+body {
+    background-color: rgba(179, 138, 89, 0.55);
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgb(47, 47, 47);
+}
+.main-div {
+    width: 400px;
+    background-color: rgb(249, 227, 189);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    padding: 15px;
+    margin: 5px;
+}
+#image {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+#second-div {
+    border-style: solid;
+}
+#info {
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#list {
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
